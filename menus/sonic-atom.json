@@ -1,0 +1,30 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle sonic-atom",
+        "command": "sonic-atom:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "sonic-atom",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "sonic-atom:toggle"
+          },
+          {
+              "label":"Stop",
+              "command":"sonic-atom:stopPlaying"
+          }
+          ]
+        }
+      ]
+    }
+  ]
+}

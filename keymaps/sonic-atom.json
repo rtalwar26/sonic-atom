@@ -1,0 +1,6 @@
+{
+  "atom-workspace": {
+    "ctrl-alt-o": "sonic-atom:toggle",
+    "ctrl-alt-l": "sonic-atom:stopPlaying"
+  }
+}
